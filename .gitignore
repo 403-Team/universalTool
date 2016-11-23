@@ -43,3 +43,4 @@ android/keystores/debug.keystore
 #忽略所有隐藏文件。
 .*
 !.gitignore
+!.gitattributes
