@@ -1,0 +1,31 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false,
+    "node": false,
+    "mocha": false
+  },
+  "rules": {
+    "no-undef": 0,
+    "no-console": 0,
+    "no-alert": 0
+//    "indent": [ 2, 2, { "SwitchCase": 1}]
+  },
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      "moduleDirectory": [
+        "node_modules",
+        "src"
+      ]
+    }
+  },
+  "globals": {
+    "__DEV__": true
+  }
+}

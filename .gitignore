@@ -39,8 +39,10 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
-
-#忽略所有隐藏文件。
-.*
-!.gitignore
-!.gitattributes
+.buckconfig
+.flowconfig
+.watchmanconfig
+.babelrc
+.eslintrc
+__tests__/
+ios/universalTool.xcodeproj/xcshareddata/
